@@ -7,7 +7,8 @@ const useStyles = makeStyles((theme: Theme) => ({
 		backgroundImage: `url(${BackkgroundImage})`,
 		backgroundSize: '100%',
 		backgroundColor: theme.palette.background.default,
-		height: '100vh',
+		minHeight: '100vh',
+		paddingTop: 24,
 	},
 	grid: {
 		[theme.breakpoints.down('sm')]: {
